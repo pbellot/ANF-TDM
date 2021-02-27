@@ -8,3 +8,5 @@ Pour réaliser les exemples de l'atelier, vous devez :
 - déposer dans votre Google Drive / ColabNotebooks le fichier CorpusCovid.csv présent ici
 
 ps : les diapositives qui reprennent les exemples sont ici : https://drive.google.com/file/d/1iDkoNf5Oc6emFU1Jm78Bb4A7YP7HcVDm/view?usp=sharing
+
+Pour toute question : patrice.bellot@univ-amu.fr
