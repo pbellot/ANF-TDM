@@ -1,4 +1,8 @@
-# ANFTDM2021
+# Atelier "Apprentissage automatique pour la classification textuelle"
+## ANF CNRS "Exploration documentaire" 2021
+
+Cet atelier permet d'explorer des tâches de classification automatique non supervisée (k-moyennes et cartes auto-organisées) ou supervisée (classification bayésienne, arbres de décision, réseaux de neurones profonds et plongements lexicaux). Les données sont d'une part les méta-données de documents issus d'ISTEX concernant le mot clé "covid" (catégorisation en domaines à partir des résumés puis partitionnement) et une collection de critiques IMDB de films pour l'analyse de sentiment.
+Les environnements sont Jupyter Notebook et Weka. Le langage est Python.
 
 Pour réaliser les exemples de l'atelier, vous devez : 
 
