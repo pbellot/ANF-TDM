@@ -6,7 +6,7 @@ Les environnements sont Jupyter Notebook et Weka. Le langage est Python.
 
 Pour réaliser les exemples de l'atelier, vous devez : 
 
-Pour une exécution du code Python dans l'environnement Google Colab : 
+(le plus simple) Pour une exécution du code Python dans l'environnement distant Google Colab (http://colab.research.google.com) : 
   - disposer d'un compte Google, accéder à votre Google Drive http://drive.google.com/
   - ouvrir les deux Notebooks (.ipynb) disponibles ici dans l'environnement Google Colab : cliquer sur le nom du carnet puis sur l'icône Colab présent en haut de la zone ouverte. NB : cela créera un dossier ColabNotebooks dans votre GoogleDrive si vous n'en avez pas déjà.
 - déposer dans votre Google Drive / ColabNotebooks le fichier CorpusCovid.csv présent ici ainsi que les critiques de films (voir plus bas)
