@@ -23,12 +23,13 @@ Pour toute question : patrice.bellot@univ-amu.fr
 
 ## Présentation des 2 carnets proposés
 
-- Le carnet IMDB.ipynb
-  - Il contient le code Python nécessaire pour effectuer une analyse de sentiment de critiques de films de type "classification binaire de la polarité de la critique". Appliquée à un corpus de 50 000 critiques en anglais de films issues de la plateforme IMDB, la tâche consiste à apprendre un modèle numérique qui détermine automatiquement la polarité de la critique : polarité négative versus polarité positive. L'approche n'utilise que très peu de ressources linguistiques puisque seule une liste de "mots outils" est exploitée. Il est ainsi très facile de reconstruire un modèle similaire pour le français. 
-  - Les méthodes appliquées sont la classification bayésienne naïve (modèles dits "sacs de mots" où les mots sont considérés indépendamment les uns des autres) puis différentes réseaux de neurones profonds (deep learning). Il est intéressant de relever l'écart de performance entre les solutions et de le mettre en regard avec les temps de calcul nécessaires à l'apprentissage des modèles. On voit dans le code à quel point les architectures neuronales sont configurables.
-  - Le code s'appuie sur les modules Python Pandas (manipulation des données), SciKit Learn (classification bayésienne), Keras/Tensorflow (réseaux de neurones).
-
-- Le carnet ClassificationMetaISTEX.ipynb
+PARTIE 1 - Le carnet ClassificationMetaISTEX.ipynb
   - Il contient le code Python pour d'une part mettre en forme les données issues de la plateforme ISTEX (CorpusCovid.csv) mais aussi pour réaliser différentes classification non supervisée (partitionnement) avec les méthodes des k-moyennes (kMeans) et construire des cartes auto-organisées (Self Organized Maps SOM). 
   - Les modules Python utilisés sont Pandas (manipulation des données), SciKit Learn (kMeans), somoclu (cartes auto-organisées). 
   - Le carnet ClassificationMetaISTEX produit le fichier CorpusWekaResumes.csv qui doit être utilisé dans Weka. Ce fichier est également disponible ici si vous voulez sauter l'étape de mise en forme et directement utiliser Weka uqe nous utilisons pour apprendre des modèles de classification (approche bayésienne et arbres de décision) en catégories scientifiques. Il est bien sûr possible de construire des modèles équivalents en restant dans l'environnement Python. 
+
+
+PARTIE 2 - Le carnet IMDB.ipynb
+  - Il contient le code Python nécessaire pour effectuer une analyse de sentiment de critiques de films de type "classification binaire de la polarité de la critique". Appliquée à un corpus de 50 000 critiques en anglais de films issues de la plateforme IMDB, la tâche consiste à apprendre un modèle numérique qui détermine automatiquement la polarité de la critique : polarité négative versus polarité positive. L'approche n'utilise que très peu de ressources linguistiques puisque seule une liste de "mots outils" est exploitée. Il est ainsi très facile de reconstruire un modèle similaire pour le français. 
+  - Les méthodes appliquées sont la classification bayésienne naïve (modèles dits "sacs de mots" où les mots sont considérés indépendamment les uns des autres) puis différentes réseaux de neurones profonds (deep learning). Il est intéressant de relever l'écart de performance entre les solutions et de le mettre en regard avec les temps de calcul nécessaires à l'apprentissage des modèles. On voit dans le code à quel point les architectures neuronales sont configurables.
+  - Le code s'appuie sur les modules Python Pandas (manipulation des données), SciKit Learn (classification bayésienne), Keras/Tensorflow (réseaux de neurones).
