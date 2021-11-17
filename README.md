@@ -32,6 +32,7 @@ Note pour MacOS : pour utiliser les accélérations GPU et si vous disposez d'un
 
 Dans tous les cas, vous devez : 
   - pour la partie Analyse de sentiments : télécharger le fichier https://ai.stanford.edu/~amaas/data/sentiment/ qui contient les critiques de films utilisées pour l'analyse de sentiment. Il s'agit d'un corpus bien connu, autour duquel beaucoup d'expérimentations sont réalisées (voir par exemple https://www.kaggle.com/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews/code). Ces données sont décrites dans Andrew L. Maas, Raymond E. Daly, Peter T. Pham, Dan Huang, Andrew Y. Ng, and Christopher Potts. (2011). Learning Word Vectors for Sentiment Analysis. The 49th Annual Meeting of the Association for Computational Linguistics (ACL 2011) - https://ai.stanford.edu/~amaas/papers/wvSent_acl2011.pdf 
+  
   NB : une version en un seul fichier .csv du corpus IMDB est ici : https://drive.google.com/file/d/1LnfB59FpNkmX3xVXAL3oc4YyeAIiXod5/view?usp=sharing 
   - pour la partie "Classification thématique" : installer l'environnement Weka : https://www.cs.waikato.ac.nz/~ml/weka/
 
