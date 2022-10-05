@@ -1,5 +1,5 @@
 # Atelier "Apprentissage automatique pour la classification textuelle"
-## ANF CNRS "Exploration documentaire" 2022
+## ANF CNRS INRAE Text and Data Mining "Exploration documentaire" 2022
 
 ## Présentation des 2 carnets proposés
 
