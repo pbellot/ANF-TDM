@@ -1,5 +1,5 @@
 # Atelier "Apprentissage automatique pour la classification textuelle"
-## ANF CNRS "Exploration documentaire" 2021
+## ANF CNRS "Exploration documentaire" 2022
 
 ## Présentation des 2 carnets proposés
 
@@ -19,7 +19,7 @@ PARTIE ANALYSE DE SENTIMENTS - Le carnet IMDB.ipynb
 
 ## Commentaires
 
-Ces ateliers de TDM (https://anf-tdm-2020.sciencesconf.org/329939 et https://anf-tdm-2021.sciencesconf.org) permettent d'explorer des tâches de classification automatique non supervisée (k-moyennes et cartes auto-organisées) et supervisée (classification bayésienne, arbres de décision, réseaux de neurones profonds et plongements lexicaux). Les données sont d'une part les méta-données de documents issus d'ISTEX concernant le mot clé "covid" (catégorisation en domaines à partir des résumés puis partitionnement) et une collection de critiques IMDB de films pour l'analyse de sentiment.
+Ces ateliers de TDM (https://anf-tdm-2020.sciencesconf.org/329939, https://anf-tdm-2021.sciencesconf.org, https://anf-tdm-2022.sciencesconf.org) permettent d'explorer des tâches de classification automatique non supervisée (k-moyennes et cartes auto-organisées) et supervisée (classification bayésienne, arbres de décision, réseaux de neurones profonds et plongements lexicaux). Les données sont d'une part les méta-données de documents issus d'ISTEX concernant le mot clé "covid" (catégorisation en domaines à partir des résumés puis partitionnement) et une collection de critiques IMDB de films pour l'analyse de sentiment.
 Les environnements sont Jupyter Notebook et Weka. Le langage est Python.
 
 Pour réaliser les exemples de l'atelier, vous devez : 
